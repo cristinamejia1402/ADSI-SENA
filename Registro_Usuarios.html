@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../version3/denticionmixta2.css">
+    <title>Dentición Mixta/Registro Usuarios</title>
+    <script src=""></script>
+  </head>
+
+
+  <body>
+  
+
+    <main>
+    
+
+      <header>
+        <div> 
+          <div><h1>ANÁLISIS DE DENTICIÓN MIXTA</h1></div>
+          <div><p>Herramienta de diagnóstico odontológico para calcular el espacio disponible en boca</p></div>
+        </div>
+      </header>
+    
+    
+        <aside>
+          <nav>
+            <ul>
+              <li><a href="../version3/Index.html">Inicio</a></li>
+              <li><a href="../version3/Registro_Pacientes.html">Registro de Admisión pacientes</a></li>
+              <li><a href="../version3/Registro_Historia_Clinica.html">Registro Historia Clínica</a></li>
+            </ul>
+          </nav>
+        </aside>
+    
+    <div>
+        <article id="contenido">
+          <p> <strong>BIENVENIDO</strong></p> <br/>
+          <p>Registrese para ingresar </p> 
+      
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email">
+              <br></br>
+            <label for="pwd">Contraseña:</label>
+            <input type="password" id="pwd" name="pwd">
+              <br></br>
+            
+            <p>
+              <label for="NuevoUsuario">Nuevo Usuario</label>
+            </p>
+            
+              
+            <a href="<?php echo $client->createAuthUrl()?>" 
+              class="googleLoginButton">Ingrese con su correo Gmail</a> 
+
+         
+          </article>
+        </div>
+            
+        <footer>
+          <p>@Copyright 2022 por Carlos Leal y Cristina Mejia</p>
+        </footer>
+    
+      </main>
+    
+      </body>
+    
+      </html>
+    
+      
